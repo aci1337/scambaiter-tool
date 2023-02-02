@@ -1,1 +1,1 @@
-# scambater-tool
+# scambaiter
