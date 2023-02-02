@@ -1,0 +1,195 @@
+﻿  TheBigBoy.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(103,1): warning C4005: 'AF_IPX': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(457,1): message : see previous definition of 'AF_IPX'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(147,1): warning C4005: 'AF_MAX': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(476,1): message : see previous definition of 'AF_MAX'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(187,1): warning C4005: 'SO_DONTLINGER': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(399,1): message : see previous definition of 'SO_DONTLINGER'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(240,25): error C2011: 'sockaddr': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(482,8): message : see declaration of 'sockaddr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(442,5): error C2143: syntax error: missing '}' before 'constant'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(442,5): error C2059: syntax error: 'constant'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(496,1): error C2143: syntax error: missing ';' before '}'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(496,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(496,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(577,1): warning C4005: 'IN_CLASSA': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(284,1): message : see previous definition of 'IN_CLASSA'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(583,1): warning C4005: 'IN_CLASSB': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(290,1): message : see previous definition of 'IN_CLASSB'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(589,1): warning C4005: 'IN_CLASSC': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(296,1): message : see previous definition of 'IN_CLASSC'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(600,1): warning C4005: 'INADDR_ANY': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(301,1): message : see previous definition of 'INADDR_ANY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(602,1): warning C4005: 'INADDR_BROADCAST': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(303,1): message : see previous definition of 'INADDR_BROADCAST'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(638,28): error C2011: 'sockaddr_in': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(309,8): message : see declaration of 'sockaddr_in'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(136,23): error C2011: 'fd_set': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(65,16): message : see declaration of 'fd_set'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(171,1): warning C4005: 'FD_SET': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(99,1): message : see previous definition of 'FD_SET'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(180,16): error C2011: 'timeval': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(108,8): message : see declaration of 'timeval'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(236,17): error C2011: 'hostent': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(164,9): message : see declaration of 'hostent'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(249,16): error C2011: 'netent': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(177,9): message : see declaration of 'netent'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(256,17): error C2011: 'servent': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(184,9): message : see declaration of 'servent'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(268,18): error C2011: 'protoent': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(196,9): message : see declaration of 'protoent'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(364,24): error C2011: 'WSAData': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(319,16): message : see declaration of 'WSAData'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(462,18): error C2011: 'sockproto': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(491,8): message : see declaration of 'sockproto'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(504,16): error C2011: 'linger': 'struct' type redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(528,9): message : see declaration of 'linger'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(517,1): warning C4005: 'SOMAXCONN': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(541,1): message : see previous definition of 'SOMAXCONN'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(551,1): warning C4005: 'FD_READ': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(559,1): message : see previous definition of 'FD_READ'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(554,1): warning C4005: 'FD_WRITE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(560,1): message : see previous definition of 'FD_WRITE'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(557,1): warning C4005: 'FD_OOB': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(561,1): message : see previous definition of 'FD_OOB'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(560,1): warning C4005: 'FD_ACCEPT': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(562,1): message : see previous definition of 'FD_ACCEPT'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(563,1): warning C4005: 'FD_CONNECT': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(563,1): message : see previous definition of 'FD_CONNECT'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(566,1): warning C4005: 'FD_CLOSE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(564,1): message : see previous definition of 'FD_CLOSE'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(1631,1): error C2375: 'accept': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(739,19): message : see declaration of 'accept'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(1653,1): error C2375: 'bind': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(744,16): message : see declaration of 'bind'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(1674,1): error C2375: 'closesocket': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(749,16): message : see declaration of 'closesocket'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(1691,1): error C2375: 'connect': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(751,16): message : see declaration of 'connect'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(1712,1): error C2375: 'ioctlsocket': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(756,16): message : see declaration of 'ioctlsocket'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(1735,1): error C2375: 'getpeername': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(761,16): message : see declaration of 'getpeername'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(1756,1): error C2375: 'getsockname': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(766,16): message : see declaration of 'getsockname'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(1777,1): error C2375: 'getsockopt': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(771,16): message : see declaration of 'getsockopt'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(1802,1): error C2375: 'htonl': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(778,19): message : see declaration of 'htonl'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(1819,1): error C2375: 'htons': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(780,20): message : see declaration of 'htons'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(1837,1): error C2375: 'inet_addr': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(782,26): message : see declaration of 'inet_addr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(1855,1): error C2375: 'inet_ntoa': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(784,23): message : see declaration of 'inet_ntoa'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(1955,1): error C2375: 'listen': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(786,16): message : see declaration of 'listen'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(1974,1): error C2375: 'ntohl': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(790,19): message : see declaration of 'ntohl'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(1991,1): error C2375: 'ntohs': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(792,20): message : see declaration of 'ntohs'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2008,1): error C2375: 'recv': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(794,16): message : see declaration of 'recv'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2031,1): error C2375: 'recvfrom': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(800,16): message : see declaration of 'recvfrom'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2058,1): error C2375: 'select': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(808,16): message : see declaration of 'select'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2083,1): error C2375: 'send': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(815,16): message : see declaration of 'send'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2106,1): error C2375: 'sendto': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(821,16): message : see declaration of 'sendto'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2133,1): error C2375: 'setsockopt': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(829,16): message : see declaration of 'setsockopt'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2158,1): error C2375: 'shutdown': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(836,16): message : see declaration of 'shutdown'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2178,1): error C2375: 'socket': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(840,19): message : see declaration of 'socket'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2203,1): error C2375: 'gethostbyaddr': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(847,33): message : see declaration of 'gethostbyaddr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2225,1): error C2375: 'gethostbyname': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(852,33): message : see declaration of 'gethostbyname'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2242,1): error C2375: 'gethostname': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(854,16): message : see declaration of 'gethostname'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2282,1): error C2375: 'getservbyport': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(858,33): message : see declaration of 'getservbyport'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2301,1): error C2375: 'getservbyname': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(862,33): message : see declaration of 'getservbyname'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2320,1): error C2375: 'getprotobynumber': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(866,34): message : see declaration of 'getprotobynumber'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2337,1): error C2375: 'getprotobyname': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(868,34): message : see declaration of 'getprotobyname'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2357,1): error C2375: 'WSAStartup': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(872,16): message : see declaration of 'WSAStartup'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2377,1): error C2375: 'WSACleanup': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(876,16): message : see declaration of 'WSACleanup'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2394,1): error C2375: 'WSASetLastError': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(878,17): message : see declaration of 'WSASetLastError'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2411,1): error C2375: 'WSAGetLastError': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(880,16): message : see declaration of 'WSAGetLastError'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2432,1): error C2375: 'WSAIsBlocking': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(882,17): message : see declaration of 'WSAIsBlocking'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2450,1): error C2375: 'WSAUnhookBlockingHook': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(884,16): message : see declaration of 'WSAUnhookBlockingHook'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2468,1): error C2375: 'WSASetBlockingHook': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(886,20): message : see declaration of 'WSASetBlockingHook'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2486,1): error C2375: 'WSACancelBlockingCall': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(888,16): message : see declaration of 'WSACancelBlockingCall'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2504,1): error C2375: 'WSAAsyncGetServByName': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(890,19): message : see declaration of 'WSAAsyncGetServByName'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2532,1): error C2375: 'WSAAsyncGetServByPort': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(898,19): message : see declaration of 'WSAAsyncGetServByPort'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2560,1): error C2375: 'WSAAsyncGetProtoByName': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(906,19): message : see declaration of 'WSAAsyncGetProtoByName'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2586,1): error C2375: 'WSAAsyncGetProtoByNumber': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(913,19): message : see declaration of 'WSAAsyncGetProtoByNumber'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2612,1): error C2375: 'WSAAsyncGetHostByName': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(920,19): message : see declaration of 'WSAAsyncGetHostByName'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2638,1): error C2375: 'WSAAsyncGetHostByAddr': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(927,19): message : see declaration of 'WSAAsyncGetHostByAddr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2668,1): error C2375: 'WSACancelAsyncRequest': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(936,16): message : see declaration of 'WSACancelAsyncRequest'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(2686,1): error C2375: 'WSAAsyncSelect': redefinition; different linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(938,16): message : see declaration of 'WSAAsyncSelect'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(4318,1): error C2059: syntax error: '}'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WinSock2.h(4318,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(24,7): error C2143: syntax error: missing ';' before '<'
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(24,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(24,7): error C2059: syntax error: '<'
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(24,19): error C2065: 'string': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(24,32): error C2065: 'string': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(24,13): error C3544: '_Types': parameter pack expects a type template argument
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(25,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(25,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(80,5): error C2065: 'string': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(80,12): error C2146: syntax error: missing ';' before identifier 'choose'
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(80,12): error C2065: 'choose': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(81,9): error C2065: 'choose': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(82,9): error C2065: 'string': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(82,16): error C2146: syntax error: missing ';' before identifier 'website'
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(82,16): error C2065: 'website': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(83,9): error C2065: 'cout': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(84,17): error C2065: 'cin': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(84,22): error C2065: 'website': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(84,9): error C3861: 'getline': identifier not found
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(87,9): error C2065: 'cout': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(88,9): error C2065: 'cin': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(90,9): error C2065: 'cout': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(91,9): error C2065: 'string': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(91,16): error C2146: syntax error: missing ';' before identifier 'answer'
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(91,16): error C2065: 'answer': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(92,17): error C2065: 'cin': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(92,22): error C2065: 'answer': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(92,9): error C3861: 'getline': identifier not found
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(94,13): error C2065: 'answer': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(96,13): error C2065: 'ofstream': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(96,22): error C2146: syntax error: missing ';' before identifier 'targetedFile'
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(96,22): error C2065: 'targetedFile': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(97,13): error C2065: 'targetedFile': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(98,13): error C2065: 'string': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(98,20): error C2146: syntax error: missing ';' before identifier 'targetedWebsitesReq'
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(98,20): error C2065: 'targetedWebsitesReq': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(99,13): error C2065: 'cout': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(100,21): error C2065: 'cin': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(100,26): error C2065: 'targetedWebsitesReq': undeclared identifier
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(100,13): error C3861: 'getline': identifier not found
+C:\Users\ac\source\repos\New folder\TheBigBoy\TheBigBoy.cpp(100,45): fatal  error C1003: error count exceeds 100; stopping compilation
