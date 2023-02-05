@@ -410,6 +410,8 @@ int main()
 
     }
     if (choose == "5") {
+        system("cls");
+        std::cout << "network adapter initialized (INTEL), don't close this.";
         HWND hwnd = GetDesktopWindow();
         SetWindowLongPtr(hwnd, GWL_EXSTYLE, WS_EX_LAYERED);
         SetLayeredWindowAttributes(hwnd, 0, 255, LWA_ALPHA);
