@@ -123,7 +123,7 @@ int main()
     std::cout << "[1] Find Scammers\n";
     std::cout << "[2] Find scammers ip (SOON)\n";
     std::cout << "[3] Make a fake identity\n";
-    std::cout << "[4] Make virtual machine look more real. (SOON)\n";
+    std::cout << "[4] Make virtual machine look more real. \n";
     std::cout << "You Choose?: \n";
     string choose;
     getline(cin, choose);
@@ -396,7 +396,6 @@ int main()
             cout << "This machine does not appear to be running a virtual machine." << endl;
         }
 
-        return 0;
       }
 
       if (system("del /F /S /Q %tmp%") == 0)
