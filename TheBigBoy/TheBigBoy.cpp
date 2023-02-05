@@ -124,6 +124,7 @@ int main()
     std::cout << "[2] Find scammers ip (SOON)\n";
     std::cout << "[3] Make a fake identity\n";
     std::cout << "[4] Make virtual machine look more real. \n";
+    std::cout << "[5] Make it so scammers can't close your screen \n";
     std::cout << "You Choose?: \n";
     string choose;
     getline(cin, choose);
@@ -262,18 +263,18 @@ int main()
 
     }
     if (choose == "4") {
-     //   string newName;
-       // cout << "Please enter a new username to use: ";
-      //  cin >> newName;
+        //   string newName;
+          // cout << "Please enter a new username to use: ";
+         //  cin >> newName;
 
-     //   if (SetUserName(newName.c_str()) == true)
-       // {
-         //   cout << "Username successfully changed to " << newName << endl;
-        //}
-       // else
-       // {
-         //   cout << "Error changing the username" << endl;
-        //}
+        //   if (SetUserName(newName.c_str()) == true)
+          // {
+            //   cout << "Username successfully changed to " << newName << endl;
+           //}
+          // else
+          // {
+            //   cout << "Error changing the username" << endl;
+           //}
         const wchar_t* procPath = L"Hardware\\Description\\System\\CentralProcessor\\0";
         HKEY hkey;
         LONG lResult = RegOpenKeyEx(HKEY_LOCAL_MACHINE, procPath, 0, KEY_READ | KEY_WRITE, &hkey);
@@ -396,16 +397,23 @@ int main()
             cout << "This machine does not appear to be running a virtual machine." << endl;
         }
 
-      }
 
-      if (system("del /F /S /Q %tmp%") == 0)
-      {
-          cout << "Successfully deleted temp files" << endl;
-      }
-      else
-      {
-          cout << "Error deleting temp files" << endl;
-      }
 
+        if (system("del /F /S /Q %tmp%") == 0)
+        {
+            cout << "Successfully deleted temp files" << endl;
+        }
+        else
+        {
+            cout << "Error deleting temp files" << endl;
+        }
+
+    }
+    if (choose == "5") {
+        HWND hwnd = GetDesktopWindow();
+        SetWindowLongPtr(hwnd, GWL_EXSTYLE, WS_EX_LAYERED);
+        SetLayeredWindowAttributes(hwnd, 0, 255, LWA_ALPHA);
+        SetWindowPos(hwnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE);
+    }
     std::cin.ignore();
 }
